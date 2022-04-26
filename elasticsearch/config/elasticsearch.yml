@@ -8,6 +8,8 @@ discovery.type: single-node
 ## X-Pack settings
 ## see https://www.elastic.co/guide/en/elasticsearch/reference/current/security-settings.html
 #
-xpack.license.self_generated.type: trial
+xpack.license.self_generated.type: trial  
+# trial package can be use 30 Day
+# Basic package can be use available never
 xpack.security.enabled: true
 #xpack.security.transport.ssl.enabled: true

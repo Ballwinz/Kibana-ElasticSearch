@@ -1,0 +1,8 @@
+FROM docker.elastic.co/enterprise-search/enterprise-search:${ELK_VERSION}
+root@GlobalPrimeLogservice:~/docker-elk/extensions/enterprise-search# cat .dockerignore
+# Ignore Docker build files
+Dockerfile
+.dockerignore
+
+# Ignore OS artifacts
+**/.DS_Store
